@@ -1,0 +1,5 @@
+Observations
+6. As the number of Eigen vectors used to reconstruct the original image increases, the quality of reconstructed images improves and the difference become smaller. 
+
+9. When using test s1 to identify the person, the result is not good. Check for other testcases (s2), the result is correct. this implies that using only one image per person in the 'training' process is not enough to generate good result. After a few trials, when using image no.5 and no.8, s1 gives correct result. 
+All result can be checked in the matrix (IDX1-IDX4). When the number and its index are same, the result is correct. Image no.8 give roughtly 60% identification rate.

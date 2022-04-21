@@ -1,0 +1,3 @@
+The built-in kmeans function computes much faster.
+because the iteration stops when new centroids are close to the old ones.
+when we try max_iteration = 10, there is no significent difference observed.
